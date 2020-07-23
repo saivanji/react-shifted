@@ -1,0 +1,22 @@
+{
+  "name": "react-shifted",
+  "version": "0.0.1",
+  "description": "Low-level React Drag and Drop library",
+  "author": "aiven715",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.module.js",
+  "esmodule": "lib/index.modern.js",
+  "unpkg": "lib/index.umd.js",
+  "source": "src/index.js",
+  "files": ["./lib"],
+  "scripts": {
+    "build": "microbundle"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.3"
+  }
+}
