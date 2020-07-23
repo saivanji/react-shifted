@@ -1,6 +1,6 @@
 {
   "name": "react-shifted",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Low-level React Drag and Drop library",
   "author": "aiven715",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "source": "src/index.js",
   "files": ["./lib"],
   "scripts": {
-    "build": "rimraf ./lib && microbundle --jsx React.createElement"
+    "build": "rimraf ./lib && microbundle --jsx React.createElement --jsxFragment React.Fragment"
   },
   "peerDependencies": {
     "react": "^16.13.1"
